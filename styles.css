@@ -1,0 +1,542 @@
+body{
+	background-color: rgb(12,17,38) !important;
+}
+.row a{
+	text-decoration: none;
+	color: grey;
+	float: right;
+	font-weight: bold;
+}
+.header{
+	 background-image: linear-gradient(90deg, #D9AFD9 0%, #97D9E1 100%) !important;
+}
+.d-flex img {
+	width: 20%;
+	height: 25%;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+.d-flex img:hover{
+	outline: 2px double green;
+}
+.text-success:hover{
+	color: blue!important;
+}
+ h1{
+	font-size: 30px;
+	color: white !important;
+}
+.text-white:hover{
+	color: grey !important;
+}
+.playlist-img{
+	height: ;
+}
+.dropdown-item:hover{
+	color: green !important;
+}
+.Queue{
+
+/*	width: 300px;*/
+/*	border: 2px solid white;*/
+
+}
+div::-webkit-scrollbar{
+	display: none;
+}
+.scrollable-content{
+		height: 89vh!important;
+	width: 100%;
+/*	background-color: yellow;*/
+	overflow: auto;
+}
+.scrollable-queue{
+	height: 80vh!important;
+	width: 100%;
+/*	background-color: yellow;*/
+	overflow: auto;
+}
+
+.Queue h1{
+	display: inline;
+	padding-left:5px ;
+	padding-top: 10px;
+}
+.q-button{
+/*	padding-top: 10px;*/
+	display: inline-block;
+	float: right;
+	padding-bottom: 15px;
+
+}
+.img-width{
+/*	width:auto !important;*/
+/*	height: 300px;*/
+}
+
+
+.options{
+	display: inline-block;
+	float: right;
+	align-content: end;
+	margin-left: 20% !important;
+	
+}
+.song{
+/*	border: 2px solid white;*/
+	width: 350px;
+	margin-top: 5px;
+}
+.song-inline{
+	display: inline;
+}
+
+.card-body{
+	background-color: rgb(13,16,42);
+	border: none !important;
+/*	display: inline-flex;*/
+}
+.card-title{
+	display: inline-flex;
+}
+.card{
+	background-color:rgb(13,16,42) !important ;
+}
+.card-text{
+	display: block;
+}
+
+.q-songs{
+	padding-left: 20px;
+/*	padding-right: 20px;*/
+	width: 100%;
+	background-color: rgb(23,27,42);
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+/*	overflow: hidden;*/
+	margin-bottom: 10px;
+	justify-content: center;
+	border-radius: 5px;
+}
+.q-songs:hover{
+	background-color:rgb(36,39,61);
+}
+.q-songs img{
+	width: 25%;
+	height:100%;
+	object-fit: cover;
+}
+.q-title{
+	padding-left: 20px;
+	color: white;
+}
+
+
+
+.img-w{
+	width: 50% !important;
+}
+.artist-img img{
+/*	max-width: 50%;*/
+	border-radius: 50%;
+	justify-content: space-around;
+	margin:10px 15px 10px 15px;
+}
+.artist-img {
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+/*	justify-content: space-around;*/
+	flex-wrap: wrap;
+}
+
+.show-more{
+	float: right;
+	margin-bottom: 15px;
+}
+
+.artist-img :hover{
+	opacity: 0.8 !important;
+
+}
+.artist-img img:hover{
+	outline: 5px double hotpink ;
+	transition: all 0.3s ease-in !important;
+}
+.playlist-new{
+	display: flex;
+	margin-bottom: 50px;
+}
+.electronic-playlist{
+	background-image: url('F:/Coding Ninjas/Major-p/images/summer-party.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 9rem;
+	position: relative;
+	width: 32%;
+	    background-size: 100% 100%;
+	margin: 15px 15px 15px 15px;
+/*	margin-bottom: 500px;*/
+	transition: all 0.3s ease-in-out;
+	}
+.electronic-playlist h1{
+	text-align: center;
+/*    font-size: 1.3rem;*/
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.electronic-playlist:hover{
+	background-size: 120% 120% ;
+	
+
+}
+
+.road-trip-playlist{
+	background-image: url('F:/Coding Ninjas/Major-p/images/road-trip.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 9rem;
+	position: relative;
+	width: 32%;
+	    background-size: 100% 100%;
+	margin: 15px 15px 15px 15px;
+/*	margin-bottom: 500px;*/
+	transition: all 0.3s ease-in-out;
+	}
+.road-trip-playlist h1{
+	text-align: center;
+/*    font-size: 1.3rem;*/
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.road-trip-playlist:hover{
+	background-size: 120% 120% ;
+	
+
+}
+
+.chill-playlist{
+	background-image: url('F:/Coding Ninjas/Major-p/images/chill-music.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 9rem;
+	position: relative;
+	width: 32%;
+	    background-size: 100% 100%;
+	margin: 15px 15px 15px 15px;
+/*	margin-bottom: 500px;*/
+	transition: all 0.3s ease-in-out;
+	}
+.chill-playlist h1{
+	text-align: center;
+/*    font-size: 1.3rem;*/
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chill-playlist:hover{
+	background-size: 120% 120% ;
+	
+
+}
+
+.albums{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.album-info{
+	color: white;
+		margin: 15px;
+}
+.album-info:hover{
+	color: grey;
+/*	background-color:rgb(36,39,61) ;*/
+}
+
+
+.podcasts{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.podcast-info{
+	margin: 15px;
+	color: white;
+/*	width: 30%;*/
+}
+.podcast-info:hover{
+	color: green;
+}
+
+.music-footer{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 10vh;
+	width: 100%;
+	background-color: rgb(69,69,69);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;!important;
+}
+.f-songs{
+/*	padding-left: 20px;*/
+/*	padding-right: 20px;*/
+	width: 20%;
+/*	background-color: rgb(23,27,42);*/
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+/*	overflow: hidden;*/
+	margin-bottom: 10px;
+/*	justify-content: center;*/
+	border-radius: 5px;
+}
+.con-icon{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+.fa-backward-step, .fa-circle-play, .fa-forward-step{
+	margin-bottom: 5px;
+	color: white;
+}
+.fa-backward-step:hover{
+	color: skyblue;
+}
+.fa-circle-play:hover{
+	color: skyblue;
+}
+.fa-forward-step:hover{
+	color: skyblue;
+}
+.controls{
+	position: relative;
+	top: 10%;
+	width: 30%;
+}
+.p-time input{
+	width: 100%;
+}
+.f-songs img{
+	width: 45%;
+	height:100%;
+	object-fit: cover;
+}
+
+.sounds{
+	position: relative;
+	top: 40%;
+	width: 20%;
+}
+.sounds input{
+	width: 70%;
+}
+.fa-compact-disc{
+	font-size: 2em;
+/*	color: grey;*/
+}
+.fa-bell{
+	color: rgb(227,173,24) !important;
+}
+
+@media screen and (max-width:765px){
+	.playlist{
+/*		margin-left: 20%;*/
+		width: 100%;
+	}
+	.l-song{
+/*		margin-left: 35% !important;*/
+justify-content: center!important;
+	}
+	.options{
+/*		margin-left: 35% !important;*/
+	}
+	.songs{
+		justify-content: center;
+
+/*		margin-left: 35% !important;*/
+	}
+	.songs img{
+		height: 100%;
+		object-fit: cover!important;
+	}
+	.q-songs img{
+		width: 25%;
+	}
+	.q-head{
+		padding-left: 5%!important;
+		padding-right: 5%!important;
+	}
+	.playlist-img{
+		width: 100%!important;
+	}
+	.scrollable-content{
+		overflow: visible;
+		height: auto!important;
+		margin-bottom: 50px!important;
+	}
+	.img-w{
+		width: 75% !important;
+	}
+	.artist-img img{
+	max-width: 70%;
+	}
+	.playlist-new{
+		flex-wrap: wrap;
+	}
+	.electronic-playlist, .chill-playlist, .road-trip-playlist{
+		width: 100%;
+		height: 250px;
+	}
+/*	.music-footer{
+		height: 15vh;
+	}*/
+	.controls{
+		top:10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.songs{
+	height: 100px;
+/*	background-color: cyan !important;*/
+	margin:2px ;
+	display: flex;
+	padding: 0;
+/*	overflow: hidden;*/
+	margin-left: 2px;
+
+}
+.songs img{
+	width: 35%;
+	height: fit-content;
+	align-items: start;
+}
+
+.latest{
+	height: 500px;
+}
+#song-details{
+	font-family: helvetica, sans-serif;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 2vw;
+	font-size: 0.95rem;
+}
+#song-details author{
+	font-family: helvetica, sans-serif;
+	color: white;
+	font-size: 0.8rem;
+	margin-top: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  OPtional for songs in Latest Release*/
+/*#icons{
+	height: auto;
+	width: 4vw;
+	color: var(--font_color_2);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-between;
+	padding-right: 2%;
+}
+
+#song-details{
+	font-family: helvetica, sans-serif;
+	color: var(--font_color_1);
+	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 2vw;
+	font-size: 0.95rem;
+}
+#song-details author{
+	font-family: helvetica, sans-serif;
+	color: var(--font_color_2);
+	font-size: 0.8rem;
+	margin-top: 1vh;
+}*/
