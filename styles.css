@@ -171,7 +171,7 @@ div::-webkit-scrollbar{
 	margin-bottom: 50px;
 }
 .electronic-playlist{
-	background-image: url('F:/Coding Ninjas/Major-p/images/summer-party.jpg');
+	background-image: url('../images/summer-party.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -201,7 +201,7 @@ div::-webkit-scrollbar{
 }
 
 .road-trip-playlist{
-	background-image: url('F:/Coding Ninjas/Major-p/images/road-trip.jpg');
+	background-image: url('../images/road-trip.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -231,7 +231,7 @@ div::-webkit-scrollbar{
 }
 
 .chill-playlist{
-	background-image: url('F:/Coding Ninjas/Major-p/images/chill-music.jpg');
+	background-image: url('../images/chill-music.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
