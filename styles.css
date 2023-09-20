@@ -231,7 +231,7 @@ div::-webkit-scrollbar{
 }
 
 .chill-playlist{
-	background-image: url('//images/chill-music.jpg');
+	background-image: url('./images/chill-music.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
