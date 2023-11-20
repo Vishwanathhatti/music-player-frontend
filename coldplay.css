@@ -298,9 +298,21 @@ div::-webkit-scrollbar{
 		height: auto!important;
 		margin-bottom: 50px!important;
 	}
+	.music-footer{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.f-songs img{
+	width: 90%;}
 }
 @media screen and (max-width:450px){
 	.scrollable-queue{
 		height: 50vh !important;
 	}
+	.music-footer{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.f-songs img{
+	width: 90%;}
 }
